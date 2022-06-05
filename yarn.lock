@@ -1110,18 +1110,18 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@ceramicnetwork/3id-did-resolver@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/3id-did-resolver/-/3id-did-resolver-2.0.4.tgz#924e855ba79635f140fcaaf91c21e12ec3b00fbd"
-  integrity sha512-Vwb9LbmKAFnLFlPBpYrAwmJLeY4IwN/mbJXeEyzgUg10ALqvkehhdjmRDbDt75ICIpi2E0+5WP4n71bQs9nImQ==
+"@ceramicnetwork/3id-did-resolver@^1.2.7":
+  version "1.4.16"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/3id-did-resolver/-/3id-did-resolver-1.4.16.tgz#f3dbf76930819cbf2531fd238e1ff971effed6f9"
+  integrity sha512-ES/vBp3TxBzKQGc++SymUEThUVjkmxqLKlsGfKfPR7iCt3xK0eDI7/qB1ZOOvDF0AXWRbfnem5INyioVZo2U/g==
   dependencies:
-    "@ceramicnetwork/common" "^2.0.4"
-    "@ceramicnetwork/stream-tile" "^2.1.3"
-    "@ceramicnetwork/streamid" "^2.0.4"
+    "@ceramicnetwork/common" "^1.11.0"
+    "@ceramicnetwork/stream-tile" "^1.5.7"
+    "@ceramicnetwork/streamid" "^1.3.9"
+    cids "~1.1.6"
     cross-fetch "^3.1.4"
     lru_map "^0.4.1"
-    multiformats "^9.5.8"
-    uint8arrays "^3.0.0"
+    uint8arrays "^2.0.5"
 
 "@ceramicnetwork/blockchain-utils-linking@^2.0.0":
   version "2.0.4"
@@ -1231,7 +1231,7 @@
     caip "~1.1.0"
     did-resolver "^3.1.5"
 
-"@ceramicnetwork/stream-tile@^1.0.0":
+"@ceramicnetwork/stream-tile@^1.0.0", "@ceramicnetwork/stream-tile@^1.5.7":
   version "1.5.7"
   resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-tile/-/stream-tile-1.5.7.tgz#66d481b33f756f27372d9fe3b12f78d72d6538c7"
   integrity sha512-2419vN6lh9e4CsGzOzpJTYRWhRQPKhVZP/i34RYUTgdUmdOXgb62RipZG0IvTY5DtXNfnoRcTwOe+BZqvkCDFQ==
